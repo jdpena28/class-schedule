@@ -3,3 +3,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.color1 {
+    @apply bg-[#f2f5f2]
+}
+.color2 {
+    @apply bg-[#fee9e9]
+}
+.color3 {
+    @apply bg-[#e6f3f3]
+}
+@media (max-width: 600px) {
+    .h2tag {
+        @apply hidden
+    }
+  }
