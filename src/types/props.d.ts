@@ -1,6 +1,5 @@
-interface DailyProps {
-    day: String,
-    subject: String,
-    time: String,
-    meetingLink?:String,
+interface sched {
+    day?: String,
+    subs?: String[],
+    time?: String[],
 }
