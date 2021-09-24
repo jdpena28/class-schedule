@@ -44,23 +44,23 @@ export default function daily() {
         <div className = {`grid md:grid-cols-8 font-secondary font-bold mx-1 md:mx-20 h-32 rounded-lg mt-1 ${color}`}>
             <h2 className = {`h2tag md:pt-2 md:pl-4 text-sm md:text-lg ${textColor} justify-self-start`}>{day}</h2>
             <div className = "text-xs md:text-base font-normal col-start-3 col-span-2 self-center">
-              {subs.map((sub) => {
-                return <p className = 'w-full'>{sub}</p>
+              {subs.map((sub,index) => {
+                return <p key={index} className = 'w-full'>{sub}</p>
               })}
             </div>
             <div className = "col-start-6 text-xs md:text-base font-normal self-center">
-              {time.map((time) => {
-                return <p className = 'w-full'>{time}</p>
+              {time.map((time,index) => {
+                return <p key={index} className = 'w-full'>{time}</p>
               })}
             </div>
             <div className = 'col-start-8 text-xs md:text-base font-normal self-center'>
               {
-                link.map((link) => {
+                link.map((link,index) => {
                   if (link !== '') {
-                    return <a href={`${link}`}><p className ='underline text-blue-800'>G-Meet Link</p></a>
+                    return <a key={index} href={`${link}`}><p className ='underline text-blue-800'>G-Meet Link</p></a>
                   }
                   else {
-                    return <p></p>
+                    return <p>&nbsp;</p>
                   }
                 })
 
