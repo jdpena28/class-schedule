@@ -30,10 +30,19 @@ const schedules = [
 export default function daily() {
   return (
     <div>
-      {schedules.map(({day,subs}) => (
+      {schedules.map(({day,subs,time}) => (
         <div className = {`flex font-secondary font-bold mx-20 h-32 rounded-lg mt-1 bg-[#e6f3f3]`}>
             <h2 className = "pt-2 pl-4 text-lg">{day}</h2>
-            
+            <div>
+              {subs.map((sub) => {
+                return <p>{sub}</p>
+              })}
+            </div>
+            <div>
+              {time.map((time) => {
+                return <p>{time}</p>
+              })}
+            </div>
         </div>
       ))}
     </div>
