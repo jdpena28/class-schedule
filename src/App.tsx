@@ -1,12 +1,13 @@
 import React from 'react'
 import Header from './components/Header'
-import Daily from './components/Daily'
+import Schedules from './components/Schedule'
+
 
 const App:React.FC = () => {
   return (
-    <div className="container mx-auto w-full">
+    <div className="mx-auto w-full">
       <Header/>
-      <Daily day = 'Monday' subject ='hello' time = '1-2:30'/>
+      <Schedules/>
     </div>
   )
 }
