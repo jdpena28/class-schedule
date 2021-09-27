@@ -1,4 +1,5 @@
 import React from "react";
+import {motion} from 'framer-motion'
 
 const schedules = [
   {
@@ -35,13 +36,24 @@ const schedules = [
   },
 ];
 
+let seconds = .8
+
 export default function daily() {
   return (
     <div>
       {schedules.map(({day,subs,time,link,color,textColor}) => (
         <>
-        <h2 className = {`md:hidden font-secondary font-bold mx-1 text-sm md:text-lg ${textColor} justify-self-start`}>{day}</h2>
-        <div className = {`grid md:grid-cols-8 font-secondary font-bold mx-1 md:mx-20 h-32 rounded-lg mt-1 ${color}`}>
+        <motion.h2 
+        animate = {{x: ['-6000px', '0px']}}
+        transition = {{duration: seconds += .2}}
+        className = {`md:hidden font-secondary font-bold mx-1 text-sm md:text-lg ${textColor} justify-self-start`}>{day}
+        </motion.h2>
+
+        <motion.div 
+        animate = {{x: ['-6000px', '0px']}}
+        transition = {{duration: seconds += .2}}
+        whileHover = {{scale: 1.04}}
+        className = {`grid md:grid-cols-8 font-secondary font-bold mx-1 md:mx-20 h-32 rounded-lg mt-1 ${color}`}>
             <h2 className = {`h2tag md:pt-2 md:pl-4 text-sm md:text-lg ${textColor} justify-self-start`}>{day}</h2>
             <div className = "text-xs md:text-base font-normal col-start-3 col-span-2 self-center">
               {subs.map((sub,index) => {
@@ -68,7 +80,7 @@ export default function daily() {
                 return <a href={`${link}`}><p className = 'underline text-blue-800'>G-Meet Link</p></a>
               })} */}
             </div>
-        </div>
+        </motion.div>
       </>
       ))}
     </div>

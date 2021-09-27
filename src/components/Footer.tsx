@@ -5,7 +5,7 @@ export const  Footer:React.FC = () => {
    <footer className = 'p-5 mt-2 mx-1 md:mx-20 font-sans font-semibold'>
      <div className = 'flex justify-between'>
         <h6>Ⓒ John Henrich Dela Pena</h6>
-        <div className = 'flex gap-x-3'>
+        <div className = 'flex gap-x-2 md:gap-x-3'>
           <a href="https://github.com/jdpena28/class-schedule" target = '_blank'>
           <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M14 4h-13v18h20v-11h1v12h-22v-20h14v1zm10 5h-1v-6.293l-11.646 11.647-.708-.708 11.647-11.646h-6.293v-1h8v8z"/></svg>
           </a>
