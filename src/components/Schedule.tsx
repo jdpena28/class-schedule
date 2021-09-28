@@ -8,7 +8,7 @@ const schedules = [
     textColor: 'text-red-500',
     subs : ['Network Technology and Architecture', 'Computing Theory','Software Engineering'],
     time: ['9:30am - 12:00pm','12:00pm - 2:00','6:00pm - 8:30pm'],
-    link: ['','https://meet.google.com/grn-mwie-qsi','meet.google.com/tbr-tpye-iyx']
+    link: ['meet.google.com/qpg-zfhr-znw','https://meet.google.com/tny-qbxv-eam','meet.google.com/tbr-tpye-iyx']
   },
   {
     day: 'Wednesday',
@@ -16,7 +16,7 @@ const schedules = [
     textColor: 'text-green-800',
     subs : ['Calculus', 'Network Technology and Architecture','Parallel & Visual Computing','Network Principles'],
     time: ['8:00am - 9:30am','9:30am - 12:00pm','12:30pm - 3:00pm','6:00pm - 8:00pm'],
-    link: ['','https://meet.google.com/wdq-bvne-zbd','','']
+    link: ['','','','']
   },
   {
     day: 'Thursday',
