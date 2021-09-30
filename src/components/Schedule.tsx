@@ -8,7 +8,7 @@ const schedules = [
     textColor: 'text-red-500',
     subs : ['Network Technology and Architecture', 'Computing Theory','Software Engineering'],
     time: ['9:30am - 12:00pm','12:00pm - 2:00','6:00pm - 8:30pm'],
-    link: ['meet.google.com/qpg-zfhr-znw','https://meet.google.com/tny-qbxv-eam','meet.google.com/tbr-tpye-iyx']
+    link: ['','https://meet.google.com/tny-qbxv-eam','https://meet.google.com/fmb-ckau-oru']
   },
   {
     day: 'Wednesday',
@@ -16,7 +16,7 @@ const schedules = [
     textColor: 'text-green-800',
     subs : ['Calculus', 'Network Technology and Architecture','Parallel & Visual Computing','Network Principles'],
     time: ['8:00am - 9:30am','9:30am - 12:00pm','12:30pm - 3:00pm','6:00pm - 8:00pm'],
-    link: ['','','','']
+    link: ['','https://meet.google.com/qpg-zfhr-znw','https://meet.google.com/zxn-cxxw-cxu']
   },
   {
     day: 'Thursday',
@@ -24,7 +24,7 @@ const schedules = [
     textColor: 'text-green-800',
     subs : ['Network Principles and Programming','Web Programming','Calculus','Computing Theory'],
     time: ['9:30am -12:00pm','12:30pm - 3:00pm','3:30pm - 5:00pm','6:00pm - 7:30pm'],
-    link: ['','','','']
+    link: ['https://meet.google.com/krn-eirj-iao','','','']
   },
   {
     day: 'Friday',
