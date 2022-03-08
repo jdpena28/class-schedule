@@ -3,36 +3,44 @@ import {motion} from 'framer-motion'
 
 const schedules = [
   {
+    day: 'Monday',
+    color: 'color4',
+    textColor: 'text-gray-500',
+    subs : ['Life and Works of Rizal', 'Social Issues & Professional Practices'],
+    time: ['2:00PM - 5:00PM','5:30PM - 8:30PM'],
+    link: ['','']
+  },
+  {
     day: 'Tuesday',
     color: 'color1',
     textColor: 'text-red-500',
-    subs : ['Network Technology and Architecture', 'Computing Theory','Software Engineering'],
-    time: ['9:30am - 12:00pm','12:00pm - 2:00','6:00pm - 8:30pm'],
-    link: ['','https://meet.google.com/tny-qbxv-eam','https://meet.google.com/fmb-ckau-oru']
+    subs : ['Intelligent System','Network Administration','Usability & Human Computer Interaction'],
+    time: ['7:00AM - 10:00AM','12:30PM - 2:30PM','3:00PM - 6:00PM'],
+    link: ['','','']
   },
   {
     day: 'Wednesday',
     color: 'color2',
     textColor: 'text-green-800',
-    subs : ['Calculus', 'Network Technology and Architecture','Parallel & Visual Computing','Network Principles'],
-    time: ['8:00am - 9:30am','9:30am - 12:00pm','12:30pm - 3:00pm','6:00pm - 8:00pm'],
-    link: ['https://meet.google.com/bos-evnc-vvd','https://meet.google.com/qpg-zfhr-znw','https://meet.google.com/zxn-cxxw-cxu','']
+    subs : ['Software Engineering 2','Programming Languages','Application Development'],
+    time: ['12:30PM - 2:30PM','3:00PM - 6:00PM','6:30PM - 8:30PM'],
+    link: ['','','']
   },
   {
     day: 'Thursday',
     color: 'color3',
     textColor: 'text-green-800',
-    subs : ['Network Principles and Programming','Web Programming','Calculus','Computing Theory'],
-    time: ['9:30am -12:00pm','12:30pm - 3:00pm','3:30pm - 5:00pm','6:00pm - 7:30pm'],
-    link: ['https://meet.google.com/krn-eirj-iao','','','']
+    subs : ['Software Engineering 2','Usability & Human Computer Interaction','Intelligent System'],
+    time: ['7:00AM - 10:00AM','10:00AM - 12:00NN','12:30PM - 2:30PM'],
+    link: ['','','https://meet.google.com/bts-zbzr-hap']
   },
   {
     day: 'Friday',
     color:'color1',
     textColor: 'text-blue-900',
-    subs : ['Parallel & Visual Computing', 'Web Programing','Software Engineering'],
-    time: ['9:30am -12:00pm', '12:30am - 3:00pm','6:00pm - 8:30pm'],
-    link: ['','https://meet.google.com/tuu-dhjc-dgf','']
+    subs : ['Application Development','Programming Languages'],
+    time: ['7:00AM - 10:00AM','12:30PM - 2:30PM'],
+    link: ['','']
   },
 ];
 

@@ -1,6 +1,6 @@
 {
-  "name": "vr2t-boilertplate",
-  "version": "1.0.0",
+  "name": "Class Schedule",
+  "version": "3.1.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
